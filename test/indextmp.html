@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<header>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0,user-scalable=yes">
+    <style>
+        #main {
+            font-family: Calibri;
+            margin: 10%;
+            background-color: #ddd;
+            font-size: large;
+            word-wrap: break-word;
+            display: block;
+        }
+        
+        #Presentation {
+            padding: 10px;
+            text-align: center;
+        }
+        
+        #mediatheque {
+            background-color: blanchedalmond;
+        }
+        
+        #mediatheque li {
+            text-align: center;
+            list-style: none;
+        }
+        
+        .box {
+            text-decoration: none;
+        }
+        
+        .box,
+        .deco {
+            display: block;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 20px;
+        }
+        
+        .deco {
+            background-color: aquamarine;
+            border: solid 1.5px black;
+            background-image: url("https://static.thenounproject.com/attribution/3134101-600.png");
+            background-repeat: no-repeat;
+            background-size: 20%;
+            background-position: 97%;
+        }
+        
+        @media screen and (min-width: 720px) {
+            .grille {
+                font-size: larger;
+                display: grid;
+                grid-auto-rows: 0fr;
+                grid-template-columns: 1fr 1fr;
+            }
+            .deco {
+                font-size: larger;
+            }
+        }
+        
+        @media screen and (min-width: 900px) {
+            .grille {
+                font-size: larger;
+                display: grid;
+                grid-auto-rows: 0fr;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .deco {
+                background-image: none;
+            }
+        }
+    </style>
+</header>
+
+<body>
+    <div id="main">
+        <div id="Presentation">
+            <h1>Bienvenue</h1>
+            <p>texte presentation blablablablablablablbalbalbalbalbalbalbalbalabl</p>
+        </div>
+        <div id="Mediatheque">
+            <ul class="grille">
+                <li class="deco">
+                    <a href="#" class="box" id="AdaptiveLearning">
+                Adaptive Learning 
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="BlendedLearning">
+            Blended Learning
+            </a>
+                    <a class="fleche"></a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="ReaAugmente">
+        Réalité augmentée
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="ReaVirtuel">
+            Réalité virtuelle
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="MobilLearning">
+            Mobile Learning
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="VideoLearning">
+            Video Learning 
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="RapidLearning">
+            Rapid Learning
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="Simulation">
+            Simulation
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="Gamification">
+            Gamification
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="Chatbot">
+            Chatbot
+            </a>
+                </li>
+                <li class="deco">
+                    <a href="#" class="box" id="FinalQ">
+            Quiz Final
+            </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
