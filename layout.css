@@ -1,0 +1,301 @@
+body {
+background-color:#754b24;
+background-repeat: repeat-x;
+font-family:Helvetica, Arial, Georgia, serif;
+font-size: 15px;
+padding: 20px;
+}
+
+#infos {
+	background:url('images/bulle-gris-parole-icone-6673-48.png') no-repeat 10px center;
+	width:1000px;
+	margin:15px auto;
+	border:1px dashed red;
+	font-size:1.2em;
+	padding:5px 5px 5px 70px;
+	min-height:50px;
+	-moz-box-shadow: 2px 2px 1px #000;
+	-webkit-box-shadow: 2px 2px 1px #000;
+	box-shadow: 2px 2px 1px #000;
+}
+#infos a{color: yellow;}
+
+.maj{font-size:small; color:#000; font-weight:bold;}
+
+a img{border:none}
+
+table {
+border:3px #000 solid;
+border-collapse:collapse;
+border-spacing:0;
+margin: 10px auto;
+box-shadow: 7px 10px 20px #000;
+}
+
+#noteImportante{
+text-align:center;
+margin:15px auto;
+font-size:0.8em;
+width:1000px;
+border:red 1px dashed;
+padding:5px;
+background:#F77219;
+-moz-box-shadow: 7px 7px 5px #000;
+-webkit-box-shadow: 7px 7px 5px #000;
+box-shadow: 7px 7px 5px #000;
+}
+
+#noteImportante a{
+font-family:Georgia, serif;
+text-decoration:none;
+color:blue;
+border-bottom:1px dashed black;
+font-size:1.4em;
+font-variant:small-caps;
+}
+#noteImportante a:hover{border-bottom:1px solid black;}
+
+
+caption {
+font-family: Georgia, Helvetica, Arial, serif;
+font-size:3em;
+}
+
+th {
+background:black;
+color:white;
+padding:5px 15px;
+border:1px dashed white;
+}
+
+
+tr, td {
+font-weight: bold;
+Font-Size: 13px;
+border:1px #2E2A14 solid;
+text-align:center;
+padding: 5px;
+
+}
+
+tr:hover {
+background: #1e1e1e;
+color:#fff;
+}
+
+tr.titrecol {
+font-size: 18px;
+font-style: italic;
+}
+
+tr.separator {
+background: #562505;
+height: 35px;
+color: white;
+}
+
+tr.separator:hover {
+background-color: #ad7300;
+}
+
+tr.tempo:hover {
+background-color: #B00000;
+}
+
+tr.confort:Hover {
+background-color: #006400;
+}
+
+tr.confortext:hover {
+background-color: #0040A0;
+}
+
+
+td.Muraille {padding-left: 5px; font-weight: bold;}
+td.Pompe {padding-left: 5px; font-weight: bold;}
+td.Atelier {padding-left: 5px; font-weight: bold;}
+td.TourDeGuet {padding-left: 5px; font-weight: bold;}
+td.Fondations {padding-left: 5px; font-weight: bold;}
+td.Portail {padding-left: 5px; font-weight: bold;}
+
+
+td.Muraille, td.Pompe, td.Atelier, td.TourDeGuet, td.Fondations, td.Portail {
+text-align:left;
+font-variant: small-caps;
+font-size: 15px;
+width:250px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+.base {
+font-size: 18px;
+font-weight: bolder;
+color: white;
+}
+
+.noplan {
+background-color: #896f44;
+}
+
+tr.findeb {
+height: 15px;
+background-color: black;
+}
+
+#imghouse img {
+float: left;
+}
+
+.housetext {
+text-align:left;
+padding: 5px;
+}
+
+.planCommun {color:#5BC83C; font-weight: normal; font-size: 15px; background:url('images/pic/item_bplan_c.gif') no-repeat; padding: 0 0 0 18px; text-shadow: 2px 2px 1px #000;}
+.planInha {color:#F0D000; font-weight: normal; font-size: 15px; background:url('images/pic/item_bplan_u.gif') no-repeat; padding: 0 0 0 18px; text-shadow: 2px 2px 1px #000;}
+.planRare {color:#00A2FF; font-weight: normal; font-size: 15px; background:url('images/pic/item_bplan_r.gif') no-repeat; padding: 0 0 0 18px; text-shadow: 2px 2px 1px #000;}
+.planEpique {color:#D00070; font-weight: normal; font-size: 15px; background:url('images/pic/item_bplan_e.gif') no-repeat; padding: 0 0 0 18px; text-shadow: 1px 1px 1px #000;} 
+
+.ferraille {background: url('images/pic/item_metal.gif') no-repeat; padding: 0 0 0 18px;}
+.planche {background: url('images/pic/item_wood2.gif') no-repeat; padding: 0 0 0 18px;}
+.vis {background: url('images/pic/item_meca_parts.gif') no-repeat; padding: 0 0 0 18px;}
+.structure {background: url('images/pic/item_metal_beam.gif') no-repeat; padding: 0 0 0 18px;}
+.poutre {background: url('images/pic/item_wood_beam.gif') no-repeat; padding: 0 0 0 18px;}
+.tdc {background: url('images/pic/item_tube.gif') no-repeat; padding: 0 0 0 18px;}
+.composant {background: url('images/pic/item_electro.gif') no-repeat; padding: 0 0 0 18px;}
+.tole {background: url('images/pic/item_plate.gif') no-repeat; padding: 0 0 0 18px;}
+.beton {background: url('images/pic/item_concrete_wall.gif') no-repeat; padding: 0 0 0 18px;}
+.rustine {background: url('images/pic/item_rustine.gif') no-repeat; padding: 0 0 0 18px;}
+.oscharnu {background: url('images/pic/item_bone_meat.gif') no-repeat; padding: 0 0 0 18px;}
+.os {background: url('images/pic/item_bone.gif') no-repeat; padding: 0 0 0 18px;}
+.ration {background: url('images/pic/item_water.gif') no-repeat; padding: 0 0 0 18px;}
+.table {background: url('images/pic/item_table.gif') no-repeat; padding: 0 0 0 18px;}
+.grossechaine {background: url('images/pic/item_chain.gif') no-repeat; padding: 0 0 0 18px;}
+.produitpharma {background: url('images/pic/item_pharma.gif') no-repeat; padding: 0 0 0 18px;}
+.viandehumaine {background: url('images/pic/item_hmeat.gif') no-repeat; padding: 0 0 0 18px;}
+.explosif {background: url('images/pic/item_explo.gif') no-repeat; padding: 0 0 0 18px;}
+.poule {background: url('images/pic/item_pet_chick.gif') no-repeat; padding: 0 0 0 18px;}
+.radio {background: url('images/pic/item_radio_on.gif') no-repeat; padding: 0 0 0 18px;}
+.pile {background: url('images/pic/item_pile.gif') no-repeat; padding: 0 0 0 18px;}
+.allumette {background: url('images/pic/item_lights.gif') no-repeat; padding: 0 0 0 18px;}
+.cochon {background: url('images/pic/item_pet_pig.gif') no-repeat; padding: 0 0 0 18px;}
+.chat {background: url('images/pic/item_pet_cat.gif') no-repeat; padding: 0 0 0 18px;}
+.chien {background: url('images/pic/item_pet_dog.gif') no-repeat; padding: 0 0 0 18px;}
+.chaise {background: url('images/pic/item_chair_basic.gif') no-repeat; padding: 0 0 0 18px;}
+.machinelaver {background: url('images/pic/item_machine_1.gif') no-repeat; padding: 0 0 0 18px;}
+.four {background: url('images/pic/item_machine_2.gif') no-repeat; padding: 0 0 0 18px;}
+.vodka {background: url('images/pic/item_vodka.gif') no-repeat; padding: 0 0 0 18px;}
+.steroide {background: url('images/pic/item_drug.gif') no-repeat; padding: 0 0 0 18px;}
+.moteur {background: url('images/pic/item_engine.gif') no-repeat; padding: 0 0 0 18px;}
+.moteuri {background: url('images/pic/item_engine_part.gif') no-repeat; padding: 0 0 0 18px;}
+.souche {background: url('images/pic/item_wood_bad.gif') no-repeat; padding: 0 0 0 18px;}
+.grillage {background: url('images/pic/item_fence.gif') no-repeat; padding: 0 0 0 18px;}
+.debris {background: url('images/pic/item_metal_bad.gif') no-repeat; padding: 0 0 0 18px;}
+.detonateur {background: url('images/pic/item_deto.gif') no-repeat; padding: 0 0 0 18px;}
+.treteau {background: url('images/pic/item_trestle.gif') no-repeat; padding: 0 0 0 18px;}
+.paracetoide {background: url('images/pic/item_disinfect.gif') no-repeat; padding: 0 0 0 18px;}
+.ame {background: url('images/pic/item_soul_red.gif') no-repeat; padding: 0 0 0 18px;}
+.ftole {background: url('images/pic/item_plate_raw.gif') no-repeat; padding: 0 0 0 18px;}
+.courroie {background: url('images/pic/item_courroie.gif') no-repeat; padding: 0 0 0 18px;}
+.canif {background: url('images/pic/item_small_knife.gif') no-repeat; padding: 0 0 0 18px;}
+.frigo {background: url('images/pic/item_machine_3.gif') no-repeat; padding: 0 0 0 18px;}
+.matelas{background: url('images/pic/item_bed.gif') no-repeat; padding: 0 0 0 18px;}
+.goutte{background: url('images/pic/small_water.gif') no-repeat; padding: 0 0 0 18px;}
+.sablepel {background: url('images/pic/small_gather.gif') no-repeat; padding: 0 0 0 18px;}
+.marteau {background: url('images/pic/small_refine.gif') no-repeat; padding: 0 0 0 18px;}
+.balise {background: url('images/pic/item_tagger.gif') no-repeat; padding: 0 0 0 18px;}
+.baricade {background: url('images/pic/item_home_def.gif') no-repeat; padding: 0 0 0 18px;}
+.jerrycan {background: url('images/pic/item_jerrycan.gif') no-repeat; padding: 0 0 0 18px;}
+
+.defense {background: url('images/pic/small_def.gif') no-repeat right; padding: 0 20px 0 0;}
+.PA {background: url('images/pic/small_pa.gif') no-repeat right; padding: 0 15px 0 0;}
+.hero {background: url('images/pic/small_hero.gif') no-repeat right; padding: 0 20px 0 0; font-weight:bold;}
+
+.arborescence { background:url('images/small_parent.gif') no-repeat; padding: 0 0 0 16px}
+.arborescence2 { background:url('images/small_parent2.gif') no-repeat; padding: 0 0 0 32px}
+
+/* Elements manquant */
+.missing {color:red; border-bottom:dashed 1px red}
+
+.contributeurs {color:#CAC292; font-size:small; font-style:italic;}
+
+
+
+
+
+/*********************
+MODIFICATIONS
+**********************/
+#f_groupPictos {
+width:380px;
+height:150px;
+overflow: scroll;
+}
+
+.picto {
+display:inline-block;
+width:50px;
+height:30px;
+border:1px solid #D6D0C1;
+margin:2px;
+}
+.picto:hover {
+background:#F0E38D;
+}
+
+.imgSelectMat {
+margin:0 2px;
+}
+
+
+
+/******************
+      House
+******************/
+
+p {
+text-align: center;
+margin-bottom: -5px;
+}
+
+#houseinfo {
+font-style: italic;
+font-size: 12px;
+}
+
+.hb {
+background-color: #ad7300;
+height: 0px;
+padding: 2px;
+}
+
+.trav {
+min-width: 130px;
+}
+
+td.mat {
+max-width: 300px;
+}
+
+
+
+/******************
+       EVO
+******************/
+
+.entrep {
+font-size: 10px;
+}
+
+.imgevo {
+padding-right: 5px;
+}
+
+.evotext {
+text-align: left;
+min-width: 100px;
+}
+
+
+
